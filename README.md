@@ -16,8 +16,11 @@ Start with a Bat File / Powershell file or similar:
 ## Bat:
 
 set REACT_APP_API_SERVER="http://127.0.0.1:8000"
+
 set REACT_APP_WS_SERVER="http:////127.0.0.1:8001"
+
 set REACT_APP_VERCEL_GIT_COMMIT_SHA="v1.8"
+
 set PORT=80 && npm start --verbose
 
 
