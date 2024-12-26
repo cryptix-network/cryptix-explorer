@@ -111,11 +111,11 @@ const CBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Max <span className="approx">(approx.)</span></td>
-                    <td className="pt-1">28,700,000,000 {CRYPTIX_UNIT}</td>
+                    <td className="pt-1">29,000,000,000 {CRYPTIX_UNIT}</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Mined</td>
-                    <td className="pt-1">{(circCoins / 28700000000 * 100).toFixed(2)} %</td>
+                    <td className="pt-1">{(circCoins / 29000000000 * 100).toFixed(2)} %</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Block reward</td>
