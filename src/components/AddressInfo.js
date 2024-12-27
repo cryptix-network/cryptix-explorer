@@ -286,7 +286,7 @@ const AddressInfo = () => {
                     <div className="addressinfo-header">Address{addressName ?
                         <span className="address-name">{addressName ? addressName : ""}</span> : ""}</div>
                     <div className="utxo-value-mono"><span
-                        class="addressinfo-color">{ADDRESS_PREFIX}</span>{addr.substring(6, addr.length - 8)}<span
+                        class="addressinfo-color">{ADDRESS_PREFIX}</span>{addr.substring(8, addr.length - 8)}<span
                         class="addressinfo-color">{addr.substring(addr.length - 8)}</span>
                         <CopyButton size="2rem" text={addr}/>
                         <QrButton addr="{addr}" onClick={() => setShowQr(!showQr)}/>
