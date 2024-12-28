@@ -14,7 +14,7 @@ switch (process.env.REACT_APP_NETWORK) {
             API_SERVER = "http://localhost:8001"
         }
         SUFFIX = " TN10"
-        KASPA_UNIT = "TCYTX"
+        CRYPTIX_UNIT = "TCYTX"
         break;
     case "testnet-11":
         SOCKET_SERVER = "http://localhost:8000";
@@ -23,7 +23,7 @@ switch (process.env.REACT_APP_NETWORK) {
             API_SERVER = "http://localhost:8001"
         }
         SUFFIX = " TN11"
-        KASPA_UNIT = "TCYTX"
+        CRYPTIX_UNIT = "TCYTX"
         BPS = 10
         break;
 
