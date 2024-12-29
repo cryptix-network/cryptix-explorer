@@ -222,6 +222,15 @@ body {
 
 .big-page {
   text-align: center;
+  background-color: #03050e;
+}
+
+.cryptix_bg {
+  background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+  background-image: url('/background.png');
+  background-color: #03050e;
 }
 
 
@@ -325,7 +334,6 @@ body {
 }
 
 .row2 {
-  background-color: $color5;
 }
 
 @include media-breakpoint-up(sm) {
@@ -345,7 +353,6 @@ body {
 
 .row4 {
   color: F3EEF1;
-  background-color: $color5;
 }
 
 @include media-breakpoint-up(sm) {

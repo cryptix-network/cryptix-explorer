@@ -88,6 +88,7 @@ function Dashboard() {
                 </Container>
 
             </div>
+		<div className="cryptix_bg">
             <div className="row2">
                 <Container className="secondRow webpage" fluid>
                     <Row>
@@ -124,7 +125,7 @@ function Dashboard() {
 
 
         </div>
-
+		</div>
     );
 }
 
