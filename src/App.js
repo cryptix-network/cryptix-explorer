@@ -221,7 +221,7 @@ function App() {
                                     Made with <font className="fs-5" color="red">♥</font> by Cryptix developers
                                     <span className="ms-3">
                     <OverlayTrigger placement="left" overlay={<Tooltip id="github">Source code</Tooltip>}>
-                      <a className="blockinfo-link" href="https://cryptix-network/cryptix-explorer"
+                      <a className="blockinfo-link" href="https://github.com/cryptix-network/cryptix-explorer"
                          target="_blank"><FaGithub size="1.3rem"/></a>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="donate">Donation address</Tooltip>}>
@@ -230,7 +230,7 @@ function App() {
                           size="1.3rem"/></Link>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="github">REST-API server</Tooltip>}>
-                      <a className="blockinfo-link ms-3" href="#" target="_blank"><SiFastapi
+                      <a className="blockinfo-link ms-3" href="https://github.com/cryptix-network/cryptix-rest-server" target="_blank"><SiFastapi
                           size="1.3rem"/></a>
                     </OverlayTrigger>
                   </span>
