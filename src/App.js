@@ -252,7 +252,7 @@ function App() {
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="donate">Donation address</Tooltip>}>
                       <Link className="blockinfo-link ms-2"
-                            to="/addresses/cryptix:qrjefk2r8wp607rmyvxmgjansqcwugjazpu2kk2r7057gltxetdvk8gl9fs0w"><BiDonateHeart
+                            to="/addresses/cryptix:qphcyemx3vfzem4pwalx0r5r3m289x8zt9g4z6gz4d0lc0p3zuv2cay3unnyf"><BiDonateHeart
                           size="1.1rem"/></Link>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="github">REST-API server</Tooltip>}>

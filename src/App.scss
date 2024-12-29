@@ -7,15 +7,15 @@
 
 
 $color1: #F6F5F4;
-$color2: #14F1D9;
-$color3: #519AA3;
+$color2: #00bcd4;
+$color3: #0b0e13;
 $color4: #7F8994;
-$color5: #181D30;
+$color5: #03050e;
 $superdark: $color5;
 
 $theme-colors: (
         "primary": $color2,
-        "info": #181d30,
+        "info": #03050e,
         "success": #4ea969,
         "warning": #cb9931,
         "danger": #f44336,
@@ -312,8 +312,12 @@ body {
 }
 
 .row1 {
-  color: $color3;
-  background-color: rgba($color3, 0.5);
+  color: #03050e;
+  background-color: rgba(#03050e, 1);
+  background-image: url('/blockchain_cryptix_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-bottom: 2px solid $color1;
   padding: 2rem;
   display: flex;
