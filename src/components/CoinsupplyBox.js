@@ -115,7 +115,7 @@ const CBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Mined</td>
-                    <td className="pt-1">{(circCoins / 29000000000 * 100).toFixed(2)} %</td>
+                    <td className="pt-1">{(circCoins / 520395506 * 100).toFixed(2)} %</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Block reward</td>
