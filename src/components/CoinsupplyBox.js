@@ -111,7 +111,7 @@ const CBox = () => {
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Max <span className="approx">(approx.)</span></td>
-                    <td className="pt-1">29,000,000,000 {CRYPTIX_UNIT}</td>
+                    <td className="pt-1">520,395,506 {CRYPTIX_UNIT}</td>
                 </tr>
                 <tr>
                     <td className="cardBoxElement align-top">Mined</td>
