@@ -181,6 +181,40 @@ function App() {
                                                            to={`/blocks`}>Blocks</NavLink></Nav.Item>
                                         <Nav.Item><NavLink className="nav-link fs-5" onClick={closeMenuIfNeeded}
                                                            to={`/txs`}>Transactions</NavLink></Nav.Item>
+                                                           <Nav.Item>
+                                        <a 
+                                            className="nav-link fs-5" 
+                                            onClick={closeMenuIfNeeded} 
+                                            href="https://dag.cryptix-network.org/" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        >
+                                            LiveDAG
+                                        </a>
+                                    </Nav.Item>
+
+                                    <Nav.Item>
+                                        <a 
+                                            className="nav-link fs-5" 
+                                            onClick={closeMenuIfNeeded} 
+                                            href="https://cryptix-network.org/cryptix-live-node" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        >
+                                            LiveNode
+                                        </a>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <a 
+                                            className="nav-link fs-5" 
+                                            onClick={closeMenuIfNeeded} 
+                                            href="https://cryptix-network.org/" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        >
+                                            Homepage
+                                        </a>
+                                    </Nav.Item>
                                     </Nav>
                                     <div className='ms-auto navbar-price'>${price} <span
                                         className="text-light">/ {CRYPTIX_UNIT}</span></div>
@@ -275,5 +309,6 @@ function App() {
 
     );
 }
+
 
 export default App;

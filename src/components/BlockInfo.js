@@ -140,14 +140,6 @@ const BlockInfo = () => {
                                     <Col className="blockinfo-key" lg={2}>Hash</Col>
                                     <Col className="blockinfo-value-mono" lg={10}>{blockInfo.verboseData.hash}
                                         <CopyButton text={blockInfo.verboseData.hash}/>
-                                        <OverlayTrigger
-                                            overlay={<Tooltip id="tooltip-kgi">Open in Cryptix Graph Inspector</Tooltip>}>
-                                            <span>
-                                                <BiNetworkChart className="ms-2 copy-symbol" size="20" onClick={() => {
-                                                    window.open(`https://kgi.cryptixd.net/?hash=${id}`, '_blank');
-                                                }}/>
-                                            </span>
-                                        </OverlayTrigger>
                                     </Col>
                                     {/* {isBlue ? "BLUE" : "RED"} */}
                                 </Row>
